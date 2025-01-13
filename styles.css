@@ -1,0 +1,18 @@
+.better-harvest__week-view-cell {
+  display: grid;
+}
+.entry-client {
+  order: 1;
+  font-weight: bold !important;
+}
+.entry-project {
+  order: 2;
+  font-weight: normal !important;
+}
+.entry-task {
+  order: 3;
+  font-style: italic !important;
+}
+.entry-client span {
+  display: none;
+}

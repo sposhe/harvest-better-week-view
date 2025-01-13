@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Harvest: Better Week View",
+  "version": "1.0",
+  "description": "Makes the week view of harvestapp.com easier to visually scan.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://*.harvestapp.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.harvestapp.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
