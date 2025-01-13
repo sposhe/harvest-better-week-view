@@ -1,18 +1,18 @@
-.better-harvest__week-view-cell {
+.week-view-table .better-harvest__week-view-cell {
   display: grid;
 }
-.entry-client {
+.week-view-table .entry-client {
   order: 1;
   font-weight: bold !important;
 }
-.entry-project {
+.week-view-table .entry-project {
   order: 2;
   font-weight: normal !important;
 }
-.entry-task {
+.week-view-table .entry-task {
   order: 3;
   font-style: italic !important;
 }
-.entry-client span {
+.week-view-table .entry-client span {
   display: none;
 }
